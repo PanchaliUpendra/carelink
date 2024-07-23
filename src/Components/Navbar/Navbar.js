@@ -3,7 +3,7 @@ import './Navbar.css';
 import Drawer from '@mui/material/Drawer';
 import { NavLink , useNavigate } from 'react-router-dom';
 import MenuIcon from '@mui/icons-material/Menu';
-import Galogo from '../../Assets/galogo.png';
+// import Galogo from '../../Assets/galogo.png';
 import MyContext from "../../MyContext";
 import { auth } from "../../firebase";
 import { signOut } from "firebase/auth";
@@ -68,7 +68,8 @@ function Navbar(){
         <>
         <div className="navbar-con">
             <div>
-                <img src={Galogo} alt='galogo' onClick={()=>navigate('/')}/>
+                {/* <img src={Galogo} alt='galogo' onClick={()=>navigate('/')}/> */}
+                <h1 style={{fontSize:'1rem',fontWeight:'600',textTransform:'uppercase'}} onClick={()=>navigate('/')}>carelink</h1>
             </div>
             <div>
                 <MenuIcon onClick={toggleDrawer('left', true)}/>

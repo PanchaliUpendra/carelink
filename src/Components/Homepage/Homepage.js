@@ -3,7 +3,8 @@ import './Homepage.css';
 import Marquee from "react-fast-marquee";
 import KnowMore from '../../Assets/knowmoreimg.jpeg';
 import { useNavigate } from "react-router-dom";
-import Promo from '../../Assets/promo.mp4';
+// import Promo from '../../Assets/promo.mp4';
+import promo2 from '../../Assets/promo.jpg'
 import Footer from "../Footer/Footer";
 
 import Caregiver from "./Care givers.jpg";
@@ -21,10 +22,11 @@ function Homepage(){
         <>
 
         <div className='video-container'>
-            <video  className='video-tag' autoPlay muted loop>
+            {/* <video  className='video-tag' autoPlay muted loop>
                 <source src={Promo} type='video/mp4'/>
                     Your browser does not support the video tag.
-            </video>
+            </video> */}
+            <img src={promo2} alt="promo"/>
             <div>
                 <h1>Care Link</h1>
                 <p>Empowering Seniors To Live Life To The Fullest</p>
