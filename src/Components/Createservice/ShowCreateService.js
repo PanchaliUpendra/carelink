@@ -96,10 +96,9 @@ function ShowCreateService(){
         <>
             <div className='show-created-servies-banner'>
                 <div>
-                    <h1>Experience Generosity in Action</h1>
-                    <p>Welcome to a World of Generosity! Explore the Free Services Crafted with Care 
-                        by a Wise Elder. Discover How Small Acts of Kindness Can Make a Big Difference. 
-                        Join Us in Celebrating the Spirit of Giving Back!</p>
+                    <h1>Experience Generosity in Motion</h1>
+                    <p>Welcome to a World of Generosity! Check out the Free Services Provided by a Wise Elder. See How Small Acts of Kindness Can Make a 
+                    Big Difference. Join Us in Celebrating the Spirit of Giving!</p>
                     <h3>if you want to take more services? <span onClick={()=>navigate('/createservice')}>Take Service</span></h3>
                 </div>
             </div>

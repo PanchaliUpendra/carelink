@@ -59,8 +59,7 @@ function Services(){
                                 <MedicalInformationIcon/>
                             </div>
                             <p>
-                                Our caregivers offer personalized assistance with ADLs at home, including bathing, grooming, meal prep, and 
-                                medication reminders, ensuring comfort and support throughout.
+                            Our caregivers provide personalized help with daily activities at home, such as bathing, grooming, meal preparation, and medication reminders, ensuring comfort and support all the way.
                             </p>
                             <h2 onClick={()=>navigate('/ourservices')}>Know More{`>`}</h2>
                         </div>
@@ -77,8 +76,7 @@ function Services(){
                         <div className="all-service-box1">
                             <img src={servicecard1} alt='golden-age-support'/>
                             <p>
-                                Our caregivers offer personalized assistance with ADLs at home, including bathing, grooming, meal prep, 
-                                and medication reminders, ensuring comfort and support throughout.
+                            Our caregivers deliver tailored support with daily activities at home, such as bathing, grooming, meal preparation, and medication reminders, ensuring consistent comfort and care.
                             </p>
 
                             <h2 onClick={()=>navigate('/ourservices')}>Know More{`>`}</h2>

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './Register.css';
-import Loginlogo from '../../Assets/loginlogo.jpeg';
+import Loginlogo from '../../Assets/loginlogo.jpg';
 import { useNavigate } from "react-router-dom";
 import {  createUserWithEmailAndPassword } from "firebase/auth";
 import { auth,db } from '../../firebase';

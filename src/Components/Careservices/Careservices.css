@@ -12,7 +12,7 @@
 
 .careservice-first-div{
     min-height: 90vh;
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../../Assets/caretaker.jpeg');
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../../Assets/caretaker.jpg');
     background-size: cover;
     background-position: center;
     display: flex;

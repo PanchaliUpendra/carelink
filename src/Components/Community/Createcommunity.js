@@ -109,10 +109,9 @@ function Createcommunity(){
             <div className={createaddpost.active===true?'careservices-addpost-active':''}>
             <div className="createcommunity-banner">
                 <div>
-                    <h1>Community Wisdom: Where Ages Unite to Support and Inspire!</h1>
-                    <p> Post questions, seek advice, and share concerns. Wise elders offer personalized responses, drawing from
-                        life experiences. Diverse perspectives enrich discussions, fostering learning and growth. Enjoy a safe,
-                        respectful environment with easy navigation. Join our vibrant community today!</p>
+                    <h1>Community Wisdom: Where Generations Unite to Support and Inspire!</h1>
+                    <p> Ask questions, seek advice, and share your concerns. Experienced elders provide personalized responses, drawing from their rich life experiences. Varied perspectives 
+                        enhance discussions, promoting learning and growth. Enjoy a secure, respectful environment with user-friendly navigation. Join our lively community today!</p>
                     <button onClick={()=>setcreateaddpost(prev=>({
                         ...prev,
                         active:true

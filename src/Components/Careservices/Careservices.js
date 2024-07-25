@@ -85,10 +85,9 @@ function Careservices(){
             <div className="careservice-first-div">
                 <div>
                     <h1>Create Care Service</h1>
-                    <p>Caretakers play a vital role in providing essential assistance and support to elderly individuals 
-                        who may require help with daily activities due to age-related limitations or health conditions. 
-                        These professionals are typically trained and experienced in caregiving, offering physical, emotional, 
-                        and sometimes medical assistance to ensure the well-being and comfort of older adults.</p>
+                    <p>Caretakers are crucial in delivering essential aid and support to elderly individuals who may need help with daily activities due to age-related limitations or health conditions. These professionals 
+                        are usually trained and experienced in caregiving, providing physical, emotional, and occasionally medical assistance to ensure the well-being and comfort of older adults. Care Link services can offer 
+                        the same high-quality care and support to seniors, ensuring their needs are met with compassion and expertise.</p>
                     <button onClick={()=>setaddpost(true)}>+ create new service</button>
                 </div>
             </div>

@@ -94,10 +94,8 @@ function ShowAcceptedServices(){
             <div className={blurwholecon===true?'showacceptedservice-inactive':''}>
                 <div className='show-accepted-services-banner'>
                     <div>
-                        <h1>Experience Generosity in Action</h1>
-                        <p>Welcome to a World of Generosity! Explore the Free Services Crafted with Care 
-                            by a Wise Elder. Discover How Small Acts of Kindness Can Make a Big Difference. 
-                            Join Us in Celebrating the Spirit of Giving Back!</p>
+                        <h1>See Generosity in Action</h1>
+                        <p>Welcome to a World of Generosity! Explore Free Services Created with Care by a Wise Elder. See How Small Acts of Kindness Can Have a Big Impact. Join Us in Celebrating the Joy of Giving Back!</p>
                     </div>
                 </div>
                 <div className='showaccepted-services-header'>

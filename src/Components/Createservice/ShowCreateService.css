@@ -9,7 +9,7 @@
     min-height: 450px;
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../../Assets/showcreatedservices.jpg');
     background-size: cover;
-    background-position: center;
+    background-position: top;
     display: flex;
     justify-content: center;
     align-items: center;
